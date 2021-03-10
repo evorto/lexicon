@@ -1,6 +1,4 @@
 app: Lexicon
-domain: https://github.com/evorto
-
 source: src
 authors: authors
 
