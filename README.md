@@ -1,6 +1,6 @@
 # Lexicon
-<img src="https://img.shields.io/github/issues/evorto/lexicon?style=flat-square" alt="Issues">
-<img src="https://img.shields.io/github/license/evorto/lexicon?style=flat-square" alt="License">
+[![Issues](https://img.shields.io/github/issues/evorto/lexicon?style=flat-square)](https://github.com/evorto/lexicon/issues)
+[![License](https://img.shields.io/github/license/evorto/lexicon?style=flat-square)](https://github.com/evorto/lexicon/blob/main/LICENSE)
 
 Free E-Learning Content.
 
