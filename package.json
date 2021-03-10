@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "lexica build --config lexicon.yaml"
+  },
+  "devDependencies": {
+    "@evorto/lexica": "^0.0.2"
+  }
+}

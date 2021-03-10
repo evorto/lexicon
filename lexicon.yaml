@@ -1,0 +1,8 @@
+app: Lexicon
+domain: https://github.com/evorto
+
+source: src
+authors: authors
+
+dest: dist
+assetDest: dist/_assets
