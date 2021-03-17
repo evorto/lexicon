@@ -11,15 +11,16 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@evorto/lexica@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@evorto/lexica/-/lexica-0.0.2.tgz#c5d1367ca5a669c45cd98e5543eee63fa07af263"
-  integrity sha512-6Sc2rjo9hOR+EPCqgM9UtGiQAAYhEiJtfJYTmS6hjsmZVG2WFRkoTHBuB+knsdcTW8U29rrvqHb3ZpLK+z6Wpg==
+"@evorto/lexica@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@evorto/lexica/-/lexica-0.0.5.tgz#a21f808f2a3185b586048c60b8f02adcbad4ac69"
+  integrity sha512-cxVwaXzvUsj8zMvsYfI2xkIgWWjNaa/hv91n7giDtMWAcV0J92jHZWt9fUKy8dJW/e3HOk0ivvr9Q9tO3kSGIA==
   dependencies:
     commander "^7.1.0"
     ejs "^3.1.6"
     markdown-it "^12.0.4"
     markdown-it-attrs "^4.0.0"
+    markdown-it-container "^3.0.0"
     markdown-it-emoji "^2.0.0"
     winston "^3.3.3"
     yaml "^1.10.0"
@@ -236,6 +237,11 @@ markdown-it-attrs@^4.0.0:
   resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-4.0.0.tgz#eadae3ea0c7d17c5e83b98a4ec95a47f4e4960f5"
   integrity sha512-uLjtdCmhhmL3BuZsReYkFxk74qKjj5ahe34teBpOCJ4hYZZl7/ftLyXWLowngC2moRkbLEvKwN/7TMwbhbHE/A==
 
+markdown-it-container@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-container/-/markdown-it-container-3.0.0.tgz#1d19b06040a020f9a827577bb7dbf67aa5de9a5b"
+  integrity sha512-y6oKTq4BB9OQuY/KLfk/O3ysFhB3IMYoIWhGJEidXt1NQFocFK2sA2t0NYZAMyMShAGL6x5OPIbrmXPIqaN9rw==
+
 markdown-it-emoji@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-2.0.0.tgz#3164ad4c009efd946e98274f7562ad611089a231"
@@ -390,6 +396,6 @@ winston@^3.3.3:
     winston-transport "^4.4.0"
 
 yaml@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.0.tgz#3b593add944876077d4d683fee01081bd9fff31e"
-  integrity sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
+  integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
