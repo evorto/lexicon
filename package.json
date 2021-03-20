@@ -4,6 +4,6 @@
     "build": "lexica build --config lexicon.yaml"
   },
   "devDependencies": {
-    "@evorto/lexica": "^0.0.2"
+    "@evorto/lexica": "^0.0.5"
   }
 }
