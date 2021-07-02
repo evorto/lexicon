@@ -33,7 +33,7 @@ Alle Entities eines Typs werden als **Entity-Menge** bezeichnet.
 Im ER-Diagramm werden **nur Entity-Typen** eingetragen, nicht einzelne Entities. Um einen Entity-Typen zu kennzeichnen,
 wird dieser mit einem Rechteck umrandet.
 
-![Entities Mitarbeiter, Abteilung und Firma](../_material/diagramm-entities.png "ER-Diagramm: Entities") {.center}
+![Entities Mitarbeiter, Abteilung und Firma](../_material/diagramm-entities.png "ER-Diagramm: Entities")
 
 ## Attribute
 Attribute sind Eigenschaften, die Entities beschrieben.
@@ -65,7 +65,7 @@ So lässt sich zum Beispiel das Alter einer Person aus dem Geburtsdatum und dem 
 
 Im ER-Diagramm wird ein abgeleitetes Attribut mit einer gestrichelten Linie markiert.
 
-![Person mit Attributen Alter und Geburtsdatum](../_material/diagramm-abgeleitet.png "ER-Diagramm: Abgeleitetes Attribut") {.center}
+![Person mit Attributen Alter und Geburtsdatum](../_material/diagramm-abgeleitet.png "ER-Diagramm: Abgeleitetes Attribut")
 
 ### Mehrwertige Attribute
 In der Regel sind Attribute einwertig, das bedeutet, dass jedes Entity für ein Attribut genau einen Wert hat. Wir können auch
@@ -73,13 +73,13 @@ explizit mehrwertige Attribute definieren, um unter anderem modellieren zu könn
 
 Im ER-Diagramm werden mehrwertige Attribute mit einer doppelten Umrandung gekennzeichnet.
 
-![Person mit Attribut Vorname](../_material/diagramm-mehrwertig.png "ER-Diagramm: Mehrwertiges Attribut") {.center}
+![Person mit Attribut Vorname](../_material/diagramm-mehrwertig.png "ER-Diagramm: Mehrwertiges Attribut")
 
 ### Zusammengesetze Attribute
 Attribute lassen sich auch kombinieren.
 Im Beispiel ist _Name_ ein zusammengesetztes Attribut, das aus dem Attribut _Vorname_ und dem Attribut _Nachname_ besteht.
 
-![Mitarbeiter mit Attribut Name](../_material/diagramm-zusammengesetzt.png "ER-Diagramm: Zusammengesetztes Attribut") {.center}
+![Mitarbeiter mit Attribut Name](../_material/diagramm-zusammengesetzt.png "ER-Diagramm: Zusammengesetztes Attribut")
 
 ### Schlüsselattribute
 Mit Schlüsselattributen kann man Entities eindeutig identifizieren.
@@ -95,7 +95,7 @@ Weitere Beispiele für Schlüsselattribute:
 
 Im ER-Diagramm werden Schlüsselattribute unterstrichen.
 
-![Mitarbeiter mit Attribut Nr.](../_material/diagramm-schluessel.png "ER-Diagramm: Schlüsselattribut") {.center}
+![Mitarbeiter mit Attribut Nr.](../_material/diagramm-schluessel.png "ER-Diagramm: Schlüsselattribut")
 
 Es kann mehrere Schlüsselattribute pro Entity-Typ geben, diese sind aber **unabhängig voneinander**.
 Um auszudrücken, dass eine Kombination aus Attributen ein Entity identifiziert, muss ein zusammengesetztes Attribut als
@@ -103,18 +103,18 @@ Schlüssel definiert werden.
 
 <div class="left">
   <figure class="center">
-    <img src="../_material/diagramm-schluessel2.png" alt="Mehrere Schlüssel" title="ER-Diagramm: Mehrere Schlüssel">
+    <img src="../_material/diagramm-schluessel2.png" alt="Mehrere Schlüssel" title="ER-Diagramm: Mehrere Schlüssel" />
     <figcaption>
-      Es darf keine Personen geben, die den gleichen Vornamen <b>oder</b> den gleichen Nachnamen haben.<br>
+      Es darf keine Personen geben, die den gleichen Vornamen <b>oder</b> den gleichen Nachnamen haben.<br />
       (Vor- und Nachname müssen beide einzigartig sein)
     </figcaption>
   </figure>
 </div>
 <div class="right">
   <figure class="center">
-    <img src="../_material/diagramm-schluessel3.png" alt="Zusammengesetzter Schlüssel" title="ER-Diagramm: Zusammengesetzter Schlüssel">
+    <img src="../_material/diagramm-schluessel3.png" alt="Zusammengesetzter Schlüssel" title="ER-Diagramm: Zusammengesetzter Schlüssel" />
     <figcaption>
-      Es darf keine Personen geben, die den gleichen Vornamen <b>und</b> den gleichen Nachnamen haben.<br>
+      Es darf keine Personen geben, die den gleichen Vornamen <b>und</b> den gleichen Nachnamen haben.<br />
       (Vor- und Nachname müssen gemeinsam einzigartig sein)
     </figcaption>
   </figure>
@@ -148,7 +148,7 @@ Alle Beziehungen eines Typs bezeichnet man analog als **Beziehungs-Menge**.
 
 Im ER-Diagramm werden Beziehungs-Typen mit einer Raute geschrieben.
 
-![Mitarbeiter arbeitet an Projekt](../_material/diagramm-beziehung1.png "ER-Diagramm: Beziehung mit Attributen") {.center}
+![Mitarbeiter arbeitet an Projekt](../_material/diagramm-beziehung1.png "ER-Diagramm: Beziehung mit Attributen")
 
 Dieses Modell beschreibt folgenden Sachverhalt:  
 Mitarbeiter können an keinem, einem oder mehreren Projekten teilnehmen.
@@ -161,7 +161,7 @@ Hat ein Entity-Typ an einem Beziehungstyp eine **totale Teilnahme**, bedeutet da
 mindestens einmal an der zugehörigen Beziehung teilnehmen. Um eine totale Teilnahme zu kennzeichen, wird die Linie
 zwischen Beziehungstyp und Entity-Typ doppelt gezeichnet.
 
-![Mitarbeiter arbeitet an Projekt](../_material/diagramm-beziehung2.png "ER-Diagramm: Totale Teilnahme") {.center}
+![Mitarbeiter arbeitet an Projekt](../_material/diagramm-beziehung2.png "ER-Diagramm: Totale Teilnahme")
 
 Der Entity-Typ _Projekt_ hat jetzt eine totale Teilnahme, alle Projekte müssen jetzt also mindestens einen Mitarbeiter
 haben. Der Entity-Typ Mitarbeiter hat weiterhin keine totale Teilnahme. Es kann also Mitarbeiter geben, die an keinem
@@ -174,7 +174,7 @@ können. Die Chen-Notation unterscheidet dabei drei Fälle: 1:1, 1:N und N:M.
 #### 1. Fall 1:1
 Ein Entity geht mit **höchstens einem** anderen Entity-Typen eine Beziehung ein.
 
-![Schüler (1) leiht aus (1) Lehrwerk](../_material/diagramm-beziehung3.png "ER-Diagramm: Beziehung 1:1") {.center}
+![Schüler (1) leiht aus (1) Lehrwerk](../_material/diagramm-beziehung3.png "ER-Diagramm: Beziehung 1:1")
 
 Durch die Kardinalitäten ergibt sich:  
 Ein Schüler leiht **höchstens ein** Lehrwerk aus.  
@@ -184,7 +184,7 @@ Ein Lehrwerk wird von **höchstens einem** Schüler ausgeliehen.
 Jedes Entity des Entity-Typs, an dem die 1 steht, kann an **beliebig vielen** Beziehungen teilnehmen.  
 Jedes Entity des Entity-Typs, an dem das N steht, kann an **höchstens einer** Beziehung teilnehmen.
 
-![Schüler (N) ist in (1) Klasse](../_material/diagramm-beziehung4.png "ER-Diagramm: Beziehung 1:N") {.center}
+![Schüler (N) ist in (1) Klasse](../_material/diagramm-beziehung4.png "ER-Diagramm: Beziehung 1:N")
 
 Durch die Kardinalitäten ergibt sich:  
 Ein Schüler ist in **höchstens einer** Klasse.  
@@ -198,7 +198,7 @@ Eine Klasse hat **mindestens einen** Schüler.
 Jedes Entity kann an **beliebig vielen** Beziehungen teilnehmen.  
 Hinweis: Wo das N und wo das M steht, spielt keine Rolle.
 
-![Schüler (N) schreibt (M) Klausur](../_material/diagramm-beziehung5.png "ER-Diagramm: Beziehung N:M") {.center}
+![Schüler (N) schreibt (M) Klausur](../_material/diagramm-beziehung5.png "ER-Diagramm: Beziehung N:M")
 
 Durch die Kardinalitäten ergibt sich:  
 Ein Schüler schreibt **beliebig viele** Klausuren.  
@@ -214,7 +214,7 @@ Grenze sein. Soll die obere Grenze unbeschränkt sein, schreibt man ein * statt 
 
 Vorsicht: Bei der min-max-Notation in UML sind die Seiten vertauscht!
 
-![Schüler (1,1) ist in (10,30) Klasse](../_material/diagramm-minmax1.png "ER-Diagramm: (min,max)-Notation") {.center}
+![Schüler (1,1) ist in (10,30) Klasse](../_material/diagramm-minmax1.png "ER-Diagramm: (min,max)-Notation")
 
 **Bedeutung:**  
 Ein Schüler hat genau eine Beziehung (also ein Schüler ist genau in einer Klasse).  
